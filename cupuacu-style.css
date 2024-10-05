@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+}
+
+.welcome img {
+    display: flex;
+    height: 50vh;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #6b2080;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+main {
+    flex: 1; /* Ensures the main content fills the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the form vertically */
+    align-items: center; /* Centers the form horizontally */
+}
+
+footer {
+    height: 3vh;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+#acai-order {
+    width: 100%; /* Make it responsive */
+    max-width: 600px; /* Limit the width */
+    margin: 2rem auto; /* Ensure it stays centered */
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent overflow issues */
+}
